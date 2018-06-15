@@ -15,8 +15,9 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double b = readDouble("b: ");
 		
 		/*
-		 * 
+		 * Method to get the power of 2 for a and b
 		 */
+		public 
 		
 		double c
 	}
