@@ -17,7 +17,7 @@ public class DrawCenteredRect extends GraphicsProgram {
 	private static final int HEIGHT = 270;
 
 	public void run() {
-		/* You fill this in. */
+		
 	}
 }
 
