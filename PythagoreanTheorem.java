@@ -22,7 +22,8 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		
 		double sum = a2 + b2;
 		 
-		//
+		// getting the square root of sum
+		
 		double c = Math.sqrt(sum);
 		println("c = " + c);
 	}
