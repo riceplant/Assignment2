@@ -17,8 +17,8 @@ public class DrawCenteredRect extends GraphicsProgram {
 	private static final int HEIGHT = 270;
 
 	public void run() {
-		double x = (getWidth() - WIDTH) / 2;
-		double y = (getWidth() - HEIGHT) / 2;
+		double x = (getWidth() - WIDTH) / 2; // getting the x value which will center the rectangle in the middle of the screen
+		double y = (getWidth() - HEIGHT) / 2; // getting the y value which will center the rectangle in the middle of the screen
 		GRect rect = new GRect(x, y, WIDTH, HEIGHT);
 		rect.setFilled(true);
 		rect.setColor(Color.BLUE);
