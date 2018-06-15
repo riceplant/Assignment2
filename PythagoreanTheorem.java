@@ -14,13 +14,11 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double a = readDouble("a: ");
 		double b = readDouble("b: ");
 		
-		/*
-		 * Method to get the power of 2 for a and b
-		 */
-		private void powerOfTwo() {
-			
-		}
+		// getting variables for power of 2 
+		double a2 = a * a;
+		double b2 = b * b; 
 		
-		double c
+		double c = Math.sqrt(a2 - b2);
+		println("c = " + c);
 	}
 }
