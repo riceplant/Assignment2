@@ -17,7 +17,9 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		/*
 		 * Method to get the power of 2 for a and b
 		 */
-		public 
+		private void powerOfTwo() {
+			
+		}
 		
 		double c
 	}
