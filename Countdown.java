@@ -17,7 +17,9 @@ public class Countdown extends ConsoleProgram {
 		for(int i = START; i >= 0; i--) {
 			if (i == 0) {
 				println("Liftoff");
-			} println(i);
+			} else {
+				println(i);
+			}
 		}
 	}
 }
