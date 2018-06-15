@@ -17,7 +17,8 @@ public class DrawCenteredRect extends GraphicsProgram {
 	private static final int HEIGHT = 270;
 
 	public void run() {
-		GRect rect = new GRect(getWidth / 2, getHeight / 2, WIDTH, HEIGHT);
+		double x = (getWidth() -WIDTH)
+		GRect rect = new GRect(x, y, WIDTH, HEIGHT);
 		rect.setFilled(true);
 		rect.setColor(Color.BLUE);
 	}
