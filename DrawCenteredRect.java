@@ -17,7 +17,7 @@ public class DrawCenteredRect extends GraphicsProgram {
 	private static final int HEIGHT = 270;
 
 	public void run() {
-		GRect rect = new GRect(x, y, WIDTH, HEIGHT);
+		GRect rect = new GRect(getWidth / 2, getHeight / 2, WIDTH, HEIGHT);
 	}
 }
 
