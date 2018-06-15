@@ -14,7 +14,7 @@ public class Countdown extends ConsoleProgram {
 	private static final int START = 10;
 
 	public void run() {
-		/* You fill this in. */
+		
 	}
 }
 
