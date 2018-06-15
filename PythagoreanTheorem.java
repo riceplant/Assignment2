@@ -14,5 +14,10 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double a = readDouble("a: ");
 		double b = readDouble("b: ");
 		
+		/*
+		 * 
+		 */
+		
+		double c
 	}
 }
