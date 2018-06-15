@@ -21,7 +21,8 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		// getting the sum of a2 and b2
 		
 		double sum = a2 + b2;
-		
+		 
+		//
 		double c = Math.sqrt(sum);
 		println("c = " + c);
 	}
