@@ -18,11 +18,11 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double a2 = a * a;
 		double b2 = b * b; 
 		
-		// getting the subtraction of a2 and b2
+		// getting the sum of a2 and b2
 		
-		double subtraction = a2 - b2;
+		double sum = a2 + b2;
 		
-		double c = Math.sqrt(subtraction);
+		double c = Math.sqrt(sum);
 		println("c = " + c);
 	}
 }
