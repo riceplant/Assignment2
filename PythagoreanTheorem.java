@@ -18,7 +18,7 @@ public class PythagoreanTheorem extends ConsoleProgram {
 		double a2 = a * a;
 		double b2 = b * b; 
 		
-		double c = Math.sqrt(a2 - b2);
+		double c = Math.sqrt((a2 - b2));
 		println("c = " + c);
 	}
 }
