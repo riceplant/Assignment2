@@ -10,7 +10,8 @@ import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+		println("This program finds the largest and smallest numbers.");
+		
 	}
 }
 
