@@ -17,6 +17,14 @@ public class FindRange extends ConsoleProgram {
 			int input = readInt("? ");
 			if (input == SENTINEL) {
 				println("Your input is not valid since you should use 0 as ending point.");
+				break;
+			} else {
+				max = input;
+				min = input;
+				if(input == SENTINEL) {
+					println("smalest: " + min);
+					println("largest: " + max);
+				}
 			}
 		}
 		
