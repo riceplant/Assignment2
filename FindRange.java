@@ -10,8 +10,14 @@ import acm.program.*;
 
 public class FindRange extends ConsoleProgram {
 	public void run() {
+		int max;
+		int min;
 		println("This program finds the largest and smallest numbers.");
+		while ()
+		int max = readInt("? ");
 		
+		/* Specifies the value of the sentinel */
+		private static final int SENTINEL = 0;
 	}
 }
 
