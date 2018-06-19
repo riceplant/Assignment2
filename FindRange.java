@@ -15,8 +15,9 @@ public class FindRange extends ConsoleProgram {
 		println("This program finds the largest and smallest numbers.");
 		int firstInput = readInt("? ");
 		while (firstInput != SENTINEL) {
-			if (input > 0) {
-				
+			if (firstInput > 0) {
+				max = firstInput;
+				min = firstInput;
 			}
 		}		
 	}
