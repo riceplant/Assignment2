@@ -17,10 +17,14 @@ public class FindRange extends ConsoleProgram {
 		while (true) {
 			int input = readInt("? ");
 			if (input > 0) {
-				
+				max = input;
+				min = input; 
+				if (input == SENTINEL) {
+					
+				}
 			}
 		}
-		
 	}
+	private static final int SENTINEL = 0;
 }
 	
