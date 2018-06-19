@@ -27,7 +27,9 @@ public class FindRange extends ConsoleProgram {
 					max = input;
 					min = input;
 				}
-				if (input > SENTINEL && )
+				if (input > SENTINEL && input > max) {
+					
+				}
 			}
 		}
 	}
