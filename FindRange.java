@@ -21,6 +21,7 @@ public class FindRange extends ConsoleProgram {
 			} 
 			println("Smallest: " + min);
 			println("Largest: " + max);
+			break;
 		}		
 	}
 	/* Specifies the value of the sentinel */
