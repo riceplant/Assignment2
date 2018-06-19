@@ -19,7 +19,11 @@ public class FindRange extends ConsoleProgram {
 				max = firstInput;
 				min = firstInput;
 				int input = readInt("? ");
-			} 
+				if(input > 0 && input > max) {
+					max = input;
+				} else {
+					
+				}
 			println("Smallest: " + min);
 			println("Largest: " + max);
 		}		
