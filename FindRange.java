@@ -19,6 +19,7 @@ public class FindRange extends ConsoleProgram {
 				max = firstInput;
 				min = firstInput;
 				int input = readInt("? ");
+				
 				if(input > 0 && input > max) {
 					max = input;
 				} else {
@@ -26,7 +27,9 @@ public class FindRange extends ConsoleProgram {
 				}
 			println("Smallest: " + min);
 			println("Largest: " + max);
-		}		
+		} else {
+			
+		}
 	}
 	/* Specifies the value of the sentinel */
 	private static final int SENTINEL = 0;
