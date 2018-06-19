@@ -20,7 +20,14 @@ public class FindRange extends ConsoleProgram {
 				println("Please use any other number than 0. Use 0 to end your input.");
 			}
 			while (input != SENTINEL) {
-				
+				if (input > SENTINEL) {
+					max = input;
+					min = input;
+				} else {
+					max = input;
+					min = input;
+				}
+				if (input > SENTINEL && )
 			}
 		}
 	}
