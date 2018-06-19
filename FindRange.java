@@ -18,7 +18,9 @@ public class FindRange extends ConsoleProgram {
 			if (firstInput > 0) {
 				max = firstInput;
 				min = firstInput;
-			}
+			} 
+			println("Smallest: " + min);
+			println("Largest: " + max);
 		}		
 	}
 	/* Specifies the value of the sentinel */
