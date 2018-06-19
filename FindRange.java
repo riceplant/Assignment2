@@ -22,7 +22,7 @@ public class FindRange extends ConsoleProgram {
 				if(input > 0 && input > max) {
 					max = input;
 				} else {
-					
+					min = input;
 				}
 			println("Smallest: " + min);
 			println("Largest: " + max);
