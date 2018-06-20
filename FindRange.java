@@ -20,7 +20,7 @@ public class FindRange extends ConsoleProgram {
 				println("Please use any other number than 0. Use 0 to end your input.");
 				break;
 			}
-			//while (input != SENTINEL) {
+			while (input != SENTINEL) {
 				input = readInt("? ");
 				if (input > SENTINEL) {
 					max = input;
@@ -38,7 +38,7 @@ public class FindRange extends ConsoleProgram {
 					break;
 				}
 				
-			//}
+			}
 			println("Smallest: " + min);
 			println("Largest: " + max);
 		}
