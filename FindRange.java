@@ -18,6 +18,7 @@ public class FindRange extends ConsoleProgram {
 			int input = readInt("? ");
 			if (input == SENTINEL) {
 				println("Please use any other number than 0. Use 0 to end your input.");
+				break;
 			}
 			//while (input != SENTINEL) {
 				input = readInt("? ");
