@@ -23,13 +23,6 @@ public class FindRange extends ConsoleProgram {
 			}
 			while (input != SENTINEL) {
 				input = readInt("? ");
-				if (input > SENTINEL) {
-					max = input;
-					min = input;
-				} else {
-					max = input;
-					min = input;
-				}
 				if (input > SENTINEL && input > max) {
 					max = input;
 				} else if (input > SENTINEL && input < max) {
