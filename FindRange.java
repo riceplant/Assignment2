@@ -22,8 +22,9 @@ public class FindRange extends ConsoleProgram {
 			max = firstInput;
 			min = firstInput;
 			}
+		int input = readInt("? ");
 		while (true) {
-			int input = readInt("? ");
+			input = readInt("? ");
 			while (input != SENTINEL) {
 				
 				/* If input is larger than 0 and larger than min and max */
