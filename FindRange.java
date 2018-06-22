@@ -35,10 +35,10 @@ public class FindRange extends ConsoleProgram {
 				} else if (input < SENTINEL && input < min){
 					min = input;
 				}
-				println("Smallest: " + min);
-				println("Largest: " + max);
-				break;
 			}
+			println("Smallest: " + min);
+			println("Largest: " + max);
+			break;
 		}
 		
 	}
