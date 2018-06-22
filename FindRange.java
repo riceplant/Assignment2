@@ -28,6 +28,8 @@ public class FindRange extends ConsoleProgram {
 						max = input;
 					} else if (input < max && input > min) {
 						min = input;
+					} else {
+						
 					}
 				}
 			}
