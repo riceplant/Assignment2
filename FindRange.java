@@ -18,8 +18,15 @@ public class FindRange extends ConsoleProgram {
 		while (true) {
 			int input = readInt("? ");
 			while (input != SENTINEL) {
-				
-				
+				input = readInt("? ");
+				if (input == SENTINEL) {
+					println("Please use 0 to end the user input.");
+					break;
+				}
+				if (input != SENTINEL && input > min && input > max) {
+					max = input;
+					min = input;
+				}
 			}
 			println("Smallest: " + min);
 			println("Largest: " + max);
