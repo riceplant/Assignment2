@@ -23,7 +23,8 @@ public class FindRange extends ConsoleProgram {
 			min = firstInput;
 			}
 		int input = readInt("? ");
-		while (true) {
+		boolean infinity = true;
+		while (infinity) {
 			input = readInt("? ");
 			while (input != SENTINEL) {
 				
