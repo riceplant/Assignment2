@@ -15,43 +15,20 @@ public class FindRange extends ConsoleProgram {
 		int max = 0;
 		int min = 0;
 		println("This program finds the largest and smallest number.");
-		int firstInput = readInt("? ");
-		if (firstInput == SENTINEL) {
-			println("Please use 0 as the end of the input.");
-		} else {
-			max = firstInput;
-			min = firstInput;
-			}
-		int secondInput = readInt("? ");
-		if (secondInput == SENTINEL) {
-			println("Smallest: " + min);
-			println("Largest: " + max);
-		} else {
-			if (secondInput > max) {
-				max = secondInput;
-			} else if(secondInput > SENTINEL && secondInput < min) {
-				min = secondInput;
-			}
-		}
-		boolean infinity = true;
-		while (infinity) {
+		boolean infiniteInput = true;
+		while(infiniteInput) {
 			int input = readInt("? ");
-			while (input != SENTINEL) {
-				input = readInt("? ");
-				/* If input is larger than 0 and larger than min and max */
-				if (input > SENTINEL && input > min && input > max) {
-					max = input;
-				} else if (input > SENTINEL && input > min && input < max) {
-					min = input;
-				} else if (input < SENTINEL && input < min){
-					min = input;
-				}
+			if(input == SENTINEL) {
+				println("Please use 0 to end your input.");
+				break;
+			} else if (input > SENTINEL && input > max) {
+				max = input;
+				
 			}
-			println("Smallest: " + min);
-			println("Largest: " + max);
-			break;
 		}
-		
+		println("Smallest: " + min);
+		println("Largest: " + max);
+			
 	}
 	private static final int SENTINEL = 0;
 }
