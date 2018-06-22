@@ -37,6 +37,7 @@ public class FindRange extends ConsoleProgram {
 				}
 				println("Smallest: " + min);
 				println("Largest: " + max);
+				break;
 			}
 		}
 		
