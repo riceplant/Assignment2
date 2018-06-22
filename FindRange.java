@@ -21,7 +21,6 @@ public class FindRange extends ConsoleProgram {
 			// If the first input is 0, then output will be this 
 			if (input == SENTINEL) {
 				println("Please use any other number than 0. Use 0 to end your input.");
-				break;
 			}
 			
 			// If input is not 0
