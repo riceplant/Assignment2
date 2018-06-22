@@ -26,6 +26,10 @@ public class FindRange extends ConsoleProgram {
 		if (secondInput == SENTINEL) {
 			println("Smallest: " + min);
 			println("Largest: " + max);
+		} else {
+			if (secondInput > max) {
+				
+			}
 		}
 		boolean infinity = true;
 		while (infinity) {
