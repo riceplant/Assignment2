@@ -25,6 +25,7 @@ public class FindRange extends ConsoleProgram {
 			
 			// If input is not 0
 			while (input != SENTINEL) {
+				input = readInt("? ");
 				if (input > SENTINEL && input > max) {
 					max = input;
 				} 
