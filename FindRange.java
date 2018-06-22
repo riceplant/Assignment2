@@ -22,10 +22,9 @@ public class FindRange extends ConsoleProgram {
 			max = firstInput;
 			min = firstInput;
 			}
-		int input = readInt("? ");
 		boolean infinity = true;
 		while (infinity) {
-			input = readInt("? ");
+			int input = readInt("? ");
 			while (input != SENTINEL) {
 				
 				/* If input is larger than 0 and larger than min and max */
