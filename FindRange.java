@@ -28,7 +28,9 @@ public class FindRange extends ConsoleProgram {
 			println("Largest: " + max);
 		} else {
 			if (secondInput > max) {
-				
+				max = secondInput;
+			} else if(secondInput < min) {
+				min = secondInput;
 			}
 		}
 		boolean infinity = true;
