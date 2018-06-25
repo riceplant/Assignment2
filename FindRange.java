@@ -21,9 +21,9 @@ public class FindRange extends ConsoleProgram {
 			if(input == SENTINEL && min == 0 && max == 0) {
 				println("Please use 0 to end your input.");
 				break;
-			} else if (input == SENTINEL && )
-			
-			  else if (input > SENTINEL && input > max) {
+			} else if (input == SENTINEL && min == 0 && max != 0) {
+				min = max;
+			} else if (input > SENTINEL && input > max) {
 				max = input;
 			} else if (input > SENTINEL && input < max) {
 				min = input;
