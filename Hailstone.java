@@ -19,6 +19,9 @@ public class Hailstone extends ConsoleProgram {
 			if (n % 2 != 0) {
 				int nOdd = 3 * n + 1;
 				println(n + " is odd, so I make 3n + 1: " + nOdd);
+			} else if (n % 2 == 0) {
+				int nEven = n / 2;
+				println(n + " is even so I take half: " + nEven);
 			}
 		}
 	}
