@@ -18,7 +18,7 @@ public class FindRange extends ConsoleProgram {
 		boolean infiniteInput = true;
 		while(infiniteInput) {
 			int input = readInt("? ");
-			if(input == SENTINEL && min == 0 && max == 0) {
+			if (input == SENTINEL && min == 0 && max == 0) {
 				println("Please use 0 to end your input.");
 				break;
 			} else if (input == SENTINEL && min == 0 && max != 0) {
@@ -35,6 +35,8 @@ public class FindRange extends ConsoleProgram {
 				min = input;
 			} else if (input < SENTINEL && input > min && max < SENTINEL) {
 				max = input;
+			} else if (input = =SENTINEL) {
+				break;
 			}
 		}
 		println("Smallest: " + min);
