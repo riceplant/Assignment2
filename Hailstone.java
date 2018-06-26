@@ -18,7 +18,7 @@ public class Hailstone extends ConsoleProgram {
 			/* if n is odd multiply with 3 and add 1*/
 			if (n % 2 != 0) {
 				n = 3 * n + 1;
-				
+				println(n + " is odd, so I make 3n + 1: " + )
 			}
 		}
 	}
