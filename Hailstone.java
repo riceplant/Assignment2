@@ -10,7 +10,13 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		/* You fill this in */
+		int n = readLine("Enter a number: ");
+		
+		/* While n is not 1 loop through the whole program to get to 1 */
+		while (n != 1) {
+			
+			/* if n is odd multiply with 3 and add 1*/
+		}
 	}
 }
 
