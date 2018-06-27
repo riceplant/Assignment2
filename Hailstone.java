@@ -15,6 +15,7 @@ public class Hailstone extends ConsoleProgram {
 		
 		/* While n is not 1 loop through the whole program to get to 1 */
 		
+		
 	}
 }
 
