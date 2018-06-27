@@ -25,6 +25,7 @@ public class Hailstone extends ConsoleProgram {
 				while (n % 2 == 0) {
 					int nEven = n / 2;
 					println(n + " is even so I take half: " + nEven);
+					nEven = n;
 				}
 				
 			}
