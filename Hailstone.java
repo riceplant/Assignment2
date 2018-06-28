@@ -16,7 +16,8 @@ public class Hailstone extends ConsoleProgram {
 		/* While n is not 1 loop through the whole program to get to 1 */
 		while (n != 1) {
 			if (n % 2 != 0) {
-				
+				nTemp = n * 3 + 1;
+				println(n + " is ")
 			}
 		}
 	}
