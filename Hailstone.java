@@ -14,7 +14,9 @@ public class Hailstone extends ConsoleProgram {
 		int n = readInt("Enter a number: ");
 		
 		/* While n is not 1 loop through the whole program to get to 1 */
-		
+		while (n != 1) {
+			
+		}
 		
 	}
 }
