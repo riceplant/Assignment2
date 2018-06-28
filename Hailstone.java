@@ -31,7 +31,7 @@ public class Hailstone extends ConsoleProgram {
 					break;
 				}
 			} if (n == 1) {
-				println("This process took " + counter + "to reach 1.")
+				println("This process took " + counter + "to reach 1.");
 				break;
 			}
 		}
