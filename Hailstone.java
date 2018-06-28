@@ -23,7 +23,7 @@ public class Hailstone extends ConsoleProgram {
 					break;
 				} else if (n % 2 == 0) {
 					int nTempEven = n / 2;
-					println(n + "is even so I take half: " + nTempEven);
+					println(n + " is even so I take half: " + nTempEven);
 					n = nTempEven;
 					break;
 				}
