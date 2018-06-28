@@ -11,7 +11,7 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		int counter;
+		int counter = 0;
 		int n = readInt("Enter a number: ");
 		
 		/* While n is not 1 loop through the whole program to get to 1 */
@@ -27,9 +27,11 @@ public class Hailstone extends ConsoleProgram {
 					int nTempEven = n / 2;
 					println(n + " is even so I take half: " + nTempEven);
 					n = nTempEven;
+					counter++;
 					break;
 				}
 			} if (n == 1) {
+				println("This process took " + counter + "to reach 1.")
 				break;
 			}
 		}
