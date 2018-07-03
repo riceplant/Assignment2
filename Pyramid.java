@@ -28,6 +28,7 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		GRect bricket = new GRect(15, 20, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(false);
+		add(bricket);
 	}
 }
 
