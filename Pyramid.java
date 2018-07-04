@@ -36,10 +36,10 @@ public class Pyramid extends GraphicsProgram {
 		bricket.setFilled(false);
 		add(bricket);
 		
-		/** set the x-coordinate that it will be at the half of the bricket*/
+		/** set the x-coordinate that it will be at the half of the brick*/
 		double x2 = (getWidth() - BRICK_WIDTH * 2) / 2; 
 		
-		/** set the y-coordinate that it will be set at the bottom of the bricket*/
+		/** set the y-coordinate that it will be set at the bottom of the brick*/
 		double y2 = getHeight() / 2;
 		
 		GRect bricket2 = new GRect(x2, y2, BRICK_WIDTH, BRICK_HEIGHT);
