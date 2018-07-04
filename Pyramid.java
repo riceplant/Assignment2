@@ -28,6 +28,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		
+		/** Set the first brick in the center of the displayscreen  */
 		double x = (getWidth() - BRICK_WIDTH) / 2;
 		double y = (getHeight() - BRICK_HEIGHT) /2;
 		
@@ -35,13 +36,6 @@ public class Pyramid extends GraphicsProgram {
 		bricket.setFilled(false);
 		add(bricket);
 		
-		double xy = (getWidth() - BRICK_WIDTH) / 3;
-		double yx = (getHeight() - BRICK_HEIGHT) /3;
-		
-		GRect bricket2 = new GRect(xy, yx, BRICK_WIDTH, BRICK_HEIGHT);
-		bricket.setFilled(false);
-		add(bricket2
-				);
 	}
 }
 
