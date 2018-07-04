@@ -36,7 +36,7 @@ public class Pyramid extends GraphicsProgram {
 		bricket.setFilled(false);
 		add(bricket);
 		
-		GRect bricket2 = new GRect()
+		
 		
 	}
 }
