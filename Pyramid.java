@@ -34,6 +34,13 @@ public class Pyramid extends GraphicsProgram {
 		GRect bricket = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(false);
 		add(bricket);
+		
+		double xy = (getWidth() - BRICK_WIDTH) / 3;
+		double yx = (getHeight() - BRICK_HEIGHT) /3;
+		
+		GRect bricket2 = new GRect(xy, yx, BRICK_WIDTH, BRICK_HEIGHT);
+		bricket.setFilled(false);
+		add(bricket2);
 	}
 }
 
