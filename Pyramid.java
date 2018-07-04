@@ -27,6 +27,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	
 	public void run() {
+		
 		double x = (getWidth() - BRICK_WIDTH) / 2;
 		double y = (getHeight() - BRICK_HEIGHT) /2;
 		
