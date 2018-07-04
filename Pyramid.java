@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 		add(bricket);
 		
 		double x2 = (getWidth() - BRICK_WIDTH * 2) / 2;
-		double y2 = (getHeight() / 2 - BRICK_HEIGHT);
+		double y2 = (getHeight() / 2 - BRICK_HEIGHT * 2);
 		
 		GRect bricket2 = new GRect(x2, y2, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(true);
