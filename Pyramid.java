@@ -37,7 +37,7 @@ public class Pyramid extends GraphicsProgram {
 		add(bricket);
 		
 		/** set the x-coordinate that it will be at the half of the bricket*/
-		double x2 = (getWidth() - BRICK_WIDTH / 2) / 2; 
+		double x2 = (getWidth() - BRICK_WIDTH * 2) / 2; 
 		
 		/** set the y-coordinate that it will be set at the bottom of the bricket*/
 		double y2 = (getHeight() - BRICK_HEIGHT) / 2;
