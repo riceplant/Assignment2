@@ -28,7 +28,7 @@ public class Pyramid extends GraphicsProgram {
 	
 	public void run() {
 		
-		/** Set the first brick in the center of the displayscreen  */
+		/** Set the first brick in the center of the display screen  */
 		double x = (getWidth() - BRICK_WIDTH) / 2;
 		double y = (getHeight() - BRICK_HEIGHT) /2;
 		
