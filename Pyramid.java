@@ -36,7 +36,8 @@ public class Pyramid extends GraphicsProgram {
 		bricket.setFilled(false);
 		add(bricket);
 		
-		
+		double x2 = (getWidth() - BRICK_WIDTH) / 2;
+		double y2 = (getHeight() - BRICK_HEIGHT) / 2;
 		
 	}
 }
