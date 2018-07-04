@@ -29,15 +29,15 @@ public class Pyramid extends GraphicsProgram {
 	public void run() {
 		
 		/** Set the first brick in the center of the display screen  */
-		double x = (getWidth() - BRICK_WIDTH); // 2;
-		double y = (getHeight() - BRICK_HEIGHT); //2;
+		double x = (getWidth() - BRICK_WIDTH) / 2;
+		double y = (getHeight() - BRICK_HEIGHT) / 2;
 		
 		GRect bricket = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(false);
 		add(bricket);
 		
-		double x2 = (getWidth() - BRICK_WIDTH) / 2;
-		double y2 = (getHeight() - BRICK_HEIGHT) / 2;
+		double x2 = (getWidth() - BRICK_WIDTH * 0.25) / 2;
+		double y2 = (getHeight() - BRICK_HEIGHT * 4) / 2;
 		
 		GRect bricket2 = new GRect(x2, y2, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(false);
