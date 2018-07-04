@@ -40,7 +40,8 @@ public class Pyramid extends GraphicsProgram {
 		
 		GRect bricket2 = new GRect(xy, yx, BRICK_WIDTH, BRICK_HEIGHT);
 		bricket.setFilled(false);
-		add(bricket2);
+		add(bricket2
+				);
 	}
 }
 
