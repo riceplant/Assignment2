@@ -43,6 +43,7 @@ public class Pyramid extends GraphicsProgram {
 				brick.setFilled(false);
 				add(brick);
 			}
+			bricksLeft--;
 		}
 		
 	}
