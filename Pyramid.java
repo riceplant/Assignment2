@@ -44,6 +44,7 @@ public class Pyramid extends GraphicsProgram {
 				add(brick);
 			}
 			bricksLeft--;
+			startingX = getWidth() / 2 -(bricksLeft * BRICK_WIDTH) / 2;
 		}
 		
 	}
