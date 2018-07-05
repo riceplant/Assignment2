@@ -26,25 +26,18 @@ public class Pyramid extends GraphicsProgram {
 	private static final int BRICKS_IN_BASE = 14;
 	
 	
+	private double startingX = 0;
+	private double startingY = 0;
+	private double bricksLeft = BRICKS_IN_BASE;
+	
 	public void run() {
 		
-		/** Set the first brick in the center of the display screen  */
-		double x = (getWidth() - BRICK_WIDTH) / 2;
-		double y = (getHeight() - BRICK_HEIGHT) / 2;
+		startingX = getWidth() / 2 - (bricksLeft * BRICK_WIDTH) / 2;
+		startingY = getHeight() - BRICK_HEIGHT;
 		
-		GRect bricket = new GRect(x, y, BRICK_WIDTH, BRICK_HEIGHT);
-		bricket.setFilled(false);
-		add(bricket);
-		
-		/** set the x-coordinate that it will be at the half of the brick*/
-		double x2 = (getWidth() - BRICK_WIDTH * 2) / 2; 
-		
-		/** set the y-coordinate that it will be set at the bottom of the brick*/
-		double y2 = (getHeight() - BRICK_HEIGHT * 3) / 2;
-		
-		GRect bricket2 = new GRect(x2, y2, BRICK_WIDTH, BRICK_HEIGHT);
-		bricket.setFilled(true);
-		add(bricket2);
+		for (int row = 0; row < BRICKS_IN_BASE; row++) {
+			
+		}
 		
 	}
 }
