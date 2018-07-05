@@ -47,7 +47,11 @@ public class Pyramid extends GraphicsProgram {
 		add(bricket2);
 		
 		for (int i = 2; i < BRICKS_IN_BASE; i++) {
-			double x3 = (getWidth() - BRICK_WIDTH * i) 
+			double x3 = (getWidth() - BRICK_WIDTH * i) / 2;
+			for (int j = 3; j < BRICKS_IN_BASE; j++) {
+				double y3 = (getHeight() - BRICK_HEIGHT * j) / 2;
+				
+			}
 		}
 		
 	}
