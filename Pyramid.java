@@ -37,6 +37,10 @@ public class Pyramid extends GraphicsProgram {
 		
 		for (int row = 0; row < BRICKS_IN_BASE; row++) {
 			
+			for (int col = 0; col < bricksLeft; col++) {
+				
+				
+			}
 		}
 		
 	}
